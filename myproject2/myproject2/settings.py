@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangosample',      # Create this database in MySQL first
         'USER': 'root',   # Default is often 'root'
-        'PASSWORD': 'Grape2004',
+        'PASSWORD': 'YOUR_PASSWORD',
         'HOST': 'localhost',         # Or your IP address
         'PORT': '3306',              # Default MySQL port
         'OPTIONS': {
@@ -124,3 +124,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
