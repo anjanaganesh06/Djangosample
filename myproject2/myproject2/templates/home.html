@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Scraper</title>
+</head>
+<body>
+    <h1>Django Web Scraper</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Scrape Website</button>
+    </form>
+
+    {% if content %}
+        <h2>Scraped Content:</h2>
+        <p>{{ content }}</p>
+    {% endif %}
+</body>
+</html>
